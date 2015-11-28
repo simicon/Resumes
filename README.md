@@ -1,2 +1,0 @@
-# Resumes
-Online Resumes
