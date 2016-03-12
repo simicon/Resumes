@@ -6,6 +6,8 @@
 
 在线简历
 
+![resume](http://7xjspk.com1.z0.glb.clouddn.com/resume.png)
+
 ## Usage
 
 1. Clone 到本地
