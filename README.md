@@ -28,4 +28,4 @@ $ grunt
 
 ## LICENSE
 
-风格参考 @Diygod
+参考 @Diygod 修改而来。
