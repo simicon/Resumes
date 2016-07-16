@@ -42,7 +42,7 @@
             <div class="title">
                 <img src="img/head.png">
                 <h1>王钊伟的简历</h1>
-                <h2>"Coding now."</h2>
+                <h2>"Action speaks louder than words."</h2>
             </div>
             <ul class="side-info">
                 <li class="someRight">
@@ -112,11 +112,11 @@
                     <dt><i class="icon-bookmark"></i>Basic info. 基本信息</dt>
 
                     <dd><span><b>个人信息：</b></span> <b>王钊伟</b> / 男 / 1991-07</dd>
-                    <dd><span><b>教育经历：</b></span> <b>暨南大学</b>-软件工程（学士/<b>专业第一</b>） && <b>中科院计算所</b>-计算机科学与技术（硕士/<b>保送</b>）</dd>
+                    <dd><span><b>教育经历：</b></span> <b>暨南大学</b>-软件工程（学士/<b>Top 1%</b>） && <b>中科院计算所</b>-计算机应用技术（硕士/<b>免试</b>）</dd>
 
                 <li class="someRight">
 
-                    <dt><i class="icon-bookmark"></i>Honors. 荣誉与奖励</dt>
+                    <dt><i class="icon-bookmark"></i>Honors. 奖项荣誉</dt>
                     <ul class="exp">
                         <li>
                             <div class="circle"></div>
@@ -126,22 +126,22 @@
                                 <td width=450>2013 &nbsp;&nbsp;国家奖学金优秀学生 <b>(全国110人)</b></td>
                               </tr>
                               <tr>
-                                <td width=300>2011~13 &nbsp;&nbsp;<b>国家奖学金</b>、国家励志奖学金 3次
-                                <td width=520>2013 &nbsp;&nbsp;暨南大学学术之星、<b>暨南之星 (1‱)</b></td>
+                                <td width=300>2011~13 &nbsp;&nbsp;<b>国家奖学金</b>、国家励志奖学金 <b>3</b> 次
+                                <td width=520>2013 &nbsp;&nbsp;暨南大学学术之星、<b>暨南之星 (1％)</b></td>
                               </tr>
                               <tr>
-                                <td width=610>2012~13 &nbsp;&nbsp;<b>优秀毕业生</b>、企业奖学金 3次</td>
-                                <td width=300>2014 &nbsp;&nbsp;暨南大学<b>“有作为有贡献”</b>毕业生</td>
+                                <td width=610>2012~13 &nbsp;&nbsp;<b>优秀毕业生</b>、企业奖学金 <b>3</b> 次</td>
+                                <td width=300>2014 &nbsp;&nbsp;暨南大学<b>“有作为有贡献”</b>毕业生 <b>(1％)</b></td>
                               </tr>
                               <tr>
-                                <td width=300>2010 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全国中学生生物奥赛 广东省一等奖</td>
-                                <td width=520>2015 &nbsp;&nbsp;<b>中国科学院大学</b> 三好学生</td>
+                                <td width=300>2013~15 &nbsp;&nbsp;暨南、中科院大学 三好学生、优秀学生</td>
+                                <td width=520>2011 &nbsp;&nbsp;数学建模竞赛 <b>省一等、全国二等奖</b></td>
                               </tr>
                           </table>
                         </li>
                     </ul>
 
-                    <dt><i class="icon-bookmark"></i>Experience. 项目与实习经验</dt>
+                    <dt><i class="icon-bookmark"></i>Experience. 项目经历</dt>
 
 
 
@@ -150,20 +150,23 @@
                             <div class="circle"></div>
                             <table>
                               <tr>
-                                <td width=500><h4>开发一款蛋白质搜索引擎
+                                <td width=550><h4>蛋白质搜索引擎 | 质谱仪数据鉴定软件
                                 <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a> <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a> <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a></h4></td>
-                                <td width=220><div align="right"><h4>2014.02 - 2015.08</h4></div></td>
+                                <td width=150><div align="right"><h4>2014.02 - 2015.08</h4></div></td>
                               </tr>
                             </table>
  
                                 <h5>
-                                    简介：实习培训，独立实现蛋白质搜索引擎的核心算法与功能。
+                                    简介：独立设计和实现一款蛋白质搜索引擎的核心算法与功能。
                                 </h5><p><p>
-                                <p><b>1. 设计海量浮点数外部排序算法。</b>分块 I/O、数据预处理、分段基数排序、败者树多路归并、多线程。</p>
+                                <p><b>1. </b>设计海量浮点数外排算法（500M 内存限制）。为了加速，自行设计分块二进制文件 I/O 方法、内部双精度浮点数基数排序算法、及Str2Dou()/Dou2Str() 取代 STL 函数。利用败者树数据结构实现 k–路归并排序算法，使用多线程技术进行读-排-写。最后，单机上 2.5 亿条记录仅需 250s 即可完成。</p>
                                 
-                                <p><b>2. 倒排索引实现。</b>建立蛋白索引、模拟酶切、哥德尔编码去冗余、建立肽段索引、实现查询模块。</p>
+                                <p><b>2. </b>自行设计分词算法精确产生词条集，使用哥德尔编码进行词条去冗余加速，并实现词条-段落-文档的多层倒排索引。最后，以恰当的方式实现查询模块，并设计和实现一个非线性的词条打分函数对匹配相似度进行评估。</p>
 
-                                <p><b>3. 搜索引擎实现。</b>实现基于非线性的 KSDP 打分算法，速度持平，精度达到 pFind 2.8 的 98%。</p>
+                                <p><b>项目结果: </b>软件性能远超其它引擎，速度平均提高 500%，精度提高300%。 </p>
+
+                                <p><b>关键技术: </b>外排 倒排索引 打分函数 k-路归并 败者树 哥德尔编码 浮点数基数排序 排列组合 C++ 6000行</p>
+
 
                         </li>
                     </ul>
@@ -174,18 +177,22 @@
                             <div class="circle"></div>
                             <table>
                               <tr>
-                                <td width=500><h4>开发搜索引擎数据解析、结果定量软件
+                                <td width=500><h4>质谱仪数据解析和定量软件开发
                                 <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a> <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a>
                                 <td width=220><div align="right"><h4>2015.02 - 2016.02</h4></div></td>
                               </tr>
                             </table>
 
                                 <h5>
-                                    简介：国家 973 计划项目子课题，为搜索引擎在前端和后端流程提供软件支持。
+                                    简介：国家 973 计划项目子课题，独立为搜索引擎在前端和后端流程提供软件支持。
                                 </h5><p><p>
-                                <p><b>1. </b>针对搜索引擎不支持解析某质谱仪公司数据现状，破解官方API获得数据访问权，实现中心化算法和去噪算法，数据解析速度提升 60 倍，精度提升 40%，目前已在国内各实验室投入使用。</p>
+                                <p><b>1. </b>利用 ILSPY 反编译官方数据解析软件，获得 API 访问权限。根据数据特点，自行设计若干种数据中心化算法和基于信号强度确定噪音基线的去噪方法。同时合理减少 I/O 数提高数据解析速度。</p>
                                 
-                                <p><b>2. </b>针对搜索引擎不支持搜索结果定量分析的现状，开发 pQuant-MS2 软件对搜索结果进行定量计算，实现蛋白质定量整体分析流程，目前准备集成到搜索引擎中并发布给用户使用。</p>
+                                <p><b>2. </b>恰当使用哈希对定量结果计算的过程进行提速，利用方差稳定归一化方法解决异方差分布现象，并设计 PIF 参数量化因信号混杂而对定量结果带来干扰的程度。并使用倒排索引进行词项到文档的定量结果归并。</p>
+
+                                <p><b>项目结果: </b>WiffReader 的数据解析速度比其它软件快 60 倍的同时解析精度却高出 40%。pIsobariQ 的数据定量精度与其它软件一致的同时速度快 90 倍。目前它们均已投入实际使用。</p>
+
+                                <p><b>关键技术: </b>数据中心化处理 信号去噪 倒排索引 数据解析 定量分析 反编译 Boost C# C++ 7300行</p>
 
                         </li>
                     </ul>
@@ -196,22 +203,46 @@
                             <div class="circle"></div>
                             <table>
                               <tr>
-                                <td width=500><h4>开发基于蜂群算法的图像搜索引擎
+                                <td width=550><h4>图像搜索引擎 | 数字图像鉴定软件
                                 <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a>
-                                <td width=220><div align="right"><h4>2012.05 - 2013.10</h4></div></td>
+                                <td width=150><div align="right"><h4>2012.05 - 2013.10</h4></div></td>
                               </tr>
                             </table>
 
                                 <h5>
-                                    简介：国家级大学生创新创业训练计划，项目负责人，蜂群算法在图像检索系统上的应用。
+                                    简介：国家级大学生创新创业训练计划，项目负责人，群体算法在图像检索系统上的应用。
                                 </h5><p><p>
-                                <p><b>1. </b>提取图像的颜色直方图、颜色矩和颜色熵特征，进行颜色量化、单位化及加权合并，计算相似度。</p>
+                                <p><b>1. </b>使用 SOIL 库读取和解析图像库，负责实现 RGB2HSV() 转换颜色空间，自行设计从 HSV 颜色模型中提取颜色直方图、颜色矩和颜色熵等特征方法，构建图像特征库和倒排索引表。通过颜色特征向量量化、单位化及加权平均获得综合特征向量。</p>
                                 
-                                <p><b>2. </b>利用群体算法中全局和局部搜索策略进行检索，计算 RP 曲线，与传统方法相比速度提升 30 倍，准确率提高 30%，发表论文 1 篇。</p>
+                                <p><b>2. </b>负责利用蜂群觅食时的全局和局部搜索策略寻找全局最优匹配。全局精英保留策略用以加快搜索收敛速度，领域搜索依赖局部最优匹配的策略用以在欧式解空间中寻找更好的匹配。最后，利用 RP-曲线作为评价指标之一。</p>
+
+                                <p><b>项目结果: </b>较常规搜索，速度提升30倍，精度提高30%。成果已论文发表在 <i>J.Inf.Comput.Sci.</i> 期刊上。</p>
+
+                                <p><b>关键技术: </b>蜂群算法 特征提取 领域搜索 倒排索引 RP曲线 SOIL库 C++ 6200行</p>
 
                         </li>
                     </ul>
 
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <table>
+                              <tr>
+                                <td width=500><h4>基于 VSM 的引文相似度计算及网络划分软件
+                                <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a>
+                                <td width=220><div align="right"><h4>2015.12 - 2016.03</h4></div></td>
+                              </tr>
+                            </table>
+
+                                <h5>
+                                    简介：引文间的相似度计算和引用关系分析，项目成员
+                                </h5><p><p>
+                            <p><b>1. </b>从引文数据库提取引文题目、摘要及关键词，利用 Boost::tokenizer 进行分词和词干还原处理，词项小写化后去除停用词。构建语料库计算词项的 TF-IDF 并根据位置信息对其进行加权计算，然后取 TF-IDF Top 20 的词项作为每篇引文的特征向量。</p>
+                            <p><b>2. </b>构建倒排索引，计算耦合、共引、直接和间接引用网络，并在向量空间模型下计算引文间的相似度。</p>
+                            <p><b>项目结果: </b>基于上述算法，引文网络划分效果提升20%，成果以论文形式发表在 <i>Lib.Inf.Serv.</i> 期刊上。</p>
+                            <p><b>关键技术: </b>TF-IDF 特征提取 加权策略 分词 词干还原 倒排索引 Boost C++ 3200行</p>
+                        </li>
+                    </ul>
 
                     <ul class="exp">
                         <li>
@@ -231,60 +262,43 @@
                         </li>
                     </ul>
 
-                    <ul class="exp">
-                        <li>
-                            <div class="circle"></div>
-                            <table>
-                              <tr>
-                                <td width=500><h4>基于内容及拓扑结构的引文网络划分和相似度计算
-                                <a href="https://github.com/zhaoweiwang/an-external-sort-algorithm" target="_blank"><i class="fa fa-link"></i>源代码</a>
-                                <td width=220><div align="right"><h4>2015.12 - 2016.03</h4></div></td>
-                              </tr>
-                            </table>
-
-                                <h5>
-                                    简介：引文间的相似度计算和引用关系分析
-                                </h5><p><p>
-                            <p><b>1. </b>提取引文的题目、摘要和关键词信息，进行分词、词项小写化、词干提取和去停用词等处理。</p>
-                            <p><b>2. </b>构建语料库，利用 TF-IDF 提取引文关键词作为特征，并根据关键词位置信息进行加权计算。</p>
-                            <p><b>3. </b>通过构建倒排索引，计算耦合、共引、直接和间接引用网络，并以余弦相似度进行度量。</p>
-                        </li>
-                    </ul>
-
                     <dt><i class="icon-bookmark"></i>Publication. 论文发表</dt>
                     <ul class="exp">
                         <li>
                             <div class="circle"></div>
                             <table>
                               <tr>
-                                <td>[1] <b>Wang Z</b>, Liu X, Zhang J. Performance evaluation in color-based image retrieval using artificial bee colony algorithm[J]. <i>J. Inf. Comput. Sci</i>, 2014, 11(4): 1077-1086.</td>
+                                <td>[1] <b>Wang Z</b>, Liu X, Zhang J. Performance evaluation in color-based image retrieval using artificial bee colony algorithm [J]. <i>J. Inf. Comput. Sci</i>, 2014, 11(4): 1077-1086.</td>
                               </tr>
                               <tr>
-                                <td>[2] <b>Wang Z</b>, Zhang Y, Chen Z, <i>et al</i>. Short-term wind power prediction and comprehensive evaluation based on multiple methods[J]. <i>R.J. Apl. Sci. Engin. Tech</i>, 2013, 6(24): 4615-4620.
+                                <td>[2] <b>Wang Z</b>, Zhang Y, Chen Z, <i>et al</i>. Short-term wind power prediction and comprehensive evaluation based on multiple methods [J]. <i>R.J. Apl. Sci. Engin. Tech</i>, 2013, 6(24): 4615-4620.
                               </tr>
                               <tr>
-                                <td>[3] <b>Wang Z</b>, Zhang Y, Chen Z, <i>et al</i>. The multi-zonal balance model of temperature distribution in data center[J]. <i>R.J. Apl. Sci. Engin. Tech</i>, 2013, 5(05): 1756-1761.
+                                <td>[3] <b>Wang Z</b>, Zhang Y, Chen Z, <i>et al</i>. The multi-zonal balance model of temperature distribution in data center [J]. <i>R.J. Apl. Sci. Engin. Tech</i>, 2013, 5(05): 1756-1761.
                               </tr>
                               <tr>
-                                <td>[4] <b>Wang Z</b>, Zhang Y, Chen Z, <i>et al</i>. Mechanism analysis and propagation model of heavy metals contamination in urban topsoil[J]. <i>R.J. Apl. Sci. Engin. Tech</i>, 2013, 5(05): 1750-1755.</td>
+                                <td>[4] <b>Wang Z</b>, Zhang Y, Chen Z, <i>et al</i>. Mechanism analysis and propagation model of heavy metals contamination in urban topsoil [J]. <i>R.J. Apl. Sci. Engin. Tech</i>, 2013, 5(05): 1750-1755.</td>
+                              </tr>
+                              <tr>
+                                <td>[5] Xiao X, <b>Zhang Y</b>, Chen Y, <i>et al</i>. Community Detection Algorithm Based on Sample Weighting [J]. <i>Library & Information Service</i>, 2016.</td>
                               </tr>
                           </table>
                         </li>
                     </ul>
                     
-                    <dt><i class="icon-bookmark"></i>Skill. 专业技能</dt>
+                    <dt><i class="icon-bookmark"></i>Skill. 技能特长</dt>
                     <ul class="exp">
                         <li>
                             <div class="circle"></div>
                             <table>
                               <tr>
-                                <td>熟悉常用的<b>数据结构和算法</b>，有<b>搜索引擎和图像处理</b>的开发经验</td>
+                                <td><b>1.</b> 熟悉 <b>C/C++</b>，及常用的<b>数据结构</b>和<b>算法</b>，有 <b>C# & HTML/CSS & Matlab</b> 编程经验和<b>搜索引擎 & 数字图像处理</b>开发经验。日常使用 <b>Git/SVN</b> & <b>BugFree</b> 辅助开发。</td>
                               </tr>
                               <tr>
-                                <td>熟悉<b>C/C++</b>、Matlab，有C#、HTML/CSS编程经验，日常使用<b>Git/SVN、BugFree</b>辅助开发</td>
+                                <td><b>2.</b> 表达能力较好，<b>擅长写技术文档 & 做报告</b>，在校期间，以第一作者发表了 4 篇国外期刊论文，第二作者 2 篇，<b>写过大量数据分析报告。</b></td>
                               </tr>
                               <tr>
-                                <td>喜欢阅读与写作，写博6年；热爱运动，篮球羽毛球院队队员；担任过助教、班长和体育委员</td>
+                                <td><b>3.</b> 篮球 & 羽毛球<b>院队</b>，担任过学生会干部 & 班长 & 助教，日常喜欢<b>编程 & 写博客 & 开源 & 游泳 & 长跑</b>。</td>
                               </tr>
                           </table>
                         </li>
